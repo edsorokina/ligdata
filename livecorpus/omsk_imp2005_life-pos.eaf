@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-10-01T09:43:24+03:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-10-05T10:10:38+03:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///Users/elisavetasorokina/Desktop/omsk_imp2005_life.MOV"
             MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="./omsk_imp2005_life.MOV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:d15dda04-faba-4dbd-ba1e-8000cd07a0ba</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">320</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">324</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="2100"/>
@@ -1164,6 +1164,11 @@
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a321" ANNOTATION_REF="a11" CVE_REF="cveid_22691ca2-cbfd-49ee-a993-19bdf7030ae5">
+                <ANNOTATION_VALUE>PUNCT</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a208" ANNOTATION_REF="a12" CVE_REF="cveid_20f78059-d2e8-4f05-b5e1-5ecdb74f5fb8">
                 <ANNOTATION_VALUE>PRON</ANNOTATION_VALUE>
             </REF_ANNOTATION>
@@ -1269,6 +1274,11 @@
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a322" ANNOTATION_REF="a33" CVE_REF="cveid_22691ca2-cbfd-49ee-a993-19bdf7030ae5">
+                <ANNOTATION_VALUE>PUNCT</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a229" ANNOTATION_REF="a34" CVE_REF="cveid_e981f31b-d38d-45ce-91fa-0003327d7136">
                 <ANNOTATION_VALUE>ADV</ANNOTATION_VALUE>
             </REF_ANNOTATION>
@@ -1331,6 +1341,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a177" ANNOTATION_REF="a46" CVE_REF="cveid_0ed9a753-9920-4544-822b-a2ccbf4bae5b">
                 <ANNOTATION_VALUE>NOUN</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a323" ANNOTATION_REF="a47" CVE_REF="cveid_22691ca2-cbfd-49ee-a993-19bdf7030ae5">
+                <ANNOTATION_VALUE>PUNCT</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -1636,6 +1651,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a266" ANNOTATION_REF="a115" CVE_REF="cveid_0ed9a753-9920-4544-822b-a2ccbf4bae5b">
                 <ANNOTATION_VALUE>NOUN</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a324" ANNOTATION_REF="a116" CVE_REF="cveid_22691ca2-cbfd-49ee-a993-19bdf7030ae5">
+                <ANNOTATION_VALUE>PUNCT</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2024,6 +2044,9 @@
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid_dc00faaa-b38d-4d0c-a63d-c64ee4c2a904">
             <CVE_VALUE DESCRIPTION="parenthetical" LANG_REF="und">PARENTH</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_22691ca2-cbfd-49ee-a993-19bdf7030ae5">
+            <CVE_VALUE DESCRIPTION="punctuation" LANG_REF="und">PUNCT</CVE_VALUE>
         </CV_ENTRY_ML>
     </CONTROLLED_VOCABULARY>
 </ANNOTATION_DOCUMENT>
