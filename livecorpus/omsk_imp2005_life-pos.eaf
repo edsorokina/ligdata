@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-10-05T10:10:38+03:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-10-05T14:20:32+03:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///Users/elisavetasorokina/Desktop/omsk_imp2005_life.MOV"
             MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="./omsk_imp2005_life.MOV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:d15dda04-faba-4dbd-ba1e-8000cd07a0ba</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">324</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">338</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="2100"/>
@@ -1909,6 +1909,88 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
+    <TIER ANNOTATOR="lisasorokina" LINGUISTIC_TYPE_REF="intonation"
+        PARENT_REF="text@fdn2005m" PARTICIPANT="@fdn2005m" TIER_ID="eduType@fdn2005m">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a325" ANNOTATION_REF="a1" CVE_REF="cveid_46a796cf-efdd-4be4-a5a4-7a8ce4cd11af">
+                <ANNOTATION_VALUE>повествование</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a326" ANNOTATION_REF="a2" CVE_REF="cveid_46a796cf-efdd-4be4-a5a4-7a8ce4cd11af">
+                <ANNOTATION_VALUE>повествование</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a327" ANNOTATION_REF="a3" CVE_REF="cveid_46a796cf-efdd-4be4-a5a4-7a8ce4cd11af">
+                <ANNOTATION_VALUE>повествование</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a328" ANNOTATION_REF="a4" CVE_REF="cveid_46a796cf-efdd-4be4-a5a4-7a8ce4cd11af">
+                <ANNOTATION_VALUE>повествование</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a329" ANNOTATION_REF="a5" CVE_REF="cveid_46a796cf-efdd-4be4-a5a4-7a8ce4cd11af">
+                <ANNOTATION_VALUE>повествование</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a330" ANNOTATION_REF="a6" CVE_REF="cveid_46a796cf-efdd-4be4-a5a4-7a8ce4cd11af">
+                <ANNOTATION_VALUE>повествование</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a331" ANNOTATION_REF="a7" CVE_REF="cveid_46a796cf-efdd-4be4-a5a4-7a8ce4cd11af">
+                <ANNOTATION_VALUE>повествование</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a332" ANNOTATION_REF="a8" CVE_REF="cveid_46a796cf-efdd-4be4-a5a4-7a8ce4cd11af">
+                <ANNOTATION_VALUE>повествование</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a333" ANNOTATION_REF="a9" CVE_REF="cveid_46a796cf-efdd-4be4-a5a4-7a8ce4cd11af">
+                <ANNOTATION_VALUE>повествование</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="lisasorokina" LINGUISTIC_TYPE_REF="translation"
+        PARENT_REF="text@fdn2005m" PARTICIPANT="@fdn2005m" TIER_ID="gesture@fdn2005m">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a334" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>кладет руку на ногу</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a335" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>скрещивает на груди руки </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a336" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>скрещивает руки на груди, жестикулируя одной рукой </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="lisasorokina" LINGUISTIC_TYPE_REF="gesture_meaning"
+        PARENT_REF="gesture@fdn2005m" PARTICIPANT="@fdn2005m" TIER_ID="gestureMeaning@fdn2005m">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a337" ANNOTATION_REF="a336">
+                <ANNOTATION_VALUE>риторический жест: подчеркивание ритма фразы</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="lisasorokina" LINGUISTIC_TYPE_REF="gesture_organs"
+        PARENT_REF="gesture@fdn2005m" PARTICIPANT="@fdn2005m" TIER_ID="gestActiveOrgan@fdn2005m">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a338" ANNOTATION_REF="a336" CVE_REF="cveid_6782b87d-5262-4eb3-a71c-7e0547a8f54f">
+                <ANNOTATION_VALUE>hand</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
         LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
@@ -1922,7 +2004,8 @@
     <LINGUISTIC_TYPE CONSTRAINTS="Time_Subdivision"
         GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="words" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
-        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="intonation" TIME_ALIGNABLE="false"/>
+        CONTROLLED_VOCABULARY_REF="EDU Types" GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="intonation" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
         GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="gesture_meaning" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
@@ -2047,6 +2130,27 @@
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid_22691ca2-cbfd-49ee-a993-19bdf7030ae5">
             <CVE_VALUE DESCRIPTION="punctuation" LANG_REF="und">PUNCT</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="EDU Types">
+        <DESCRIPTION LANG_REF="und">Active gesture organs</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid_3cdf43a4-d5cc-421f-8542-030fe8dede79">
+            <CVE_VALUE LANG_REF="und">вопрос да-нет</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_7afa5ad6-98cf-49cc-9281-d34520b06aa0">
+            <CVE_VALUE LANG_REF="und">вопрос частный</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_46a796cf-efdd-4be4-a5a4-7a8ce4cd11af">
+            <CVE_VALUE LANG_REF="und">повествование</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_e3df336c-4805-4d20-8240-429a65cbae68">
+            <CVE_VALUE LANG_REF="und">побуждение</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_9e20476b-010c-4da0-9b17-504f4d6f2ce1">
+            <CVE_VALUE LANG_REF="und">незавершенность</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_f12603b8-4b5b-4cf7-bab4-dcda77ee97ac">
+            <CVE_VALUE DESCRIPTION="смесь типов, переспрос" LANG_REF="und">другое</CVE_VALUE>
         </CV_ENTRY_ML>
     </CONTROLLED_VOCABULARY>
 </ANNOTATION_DOCUMENT>
